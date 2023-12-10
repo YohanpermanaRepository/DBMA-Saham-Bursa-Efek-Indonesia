@@ -1,0 +1,447 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+/* Menambahkan efek hover pada tautan */
+a:hover {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+
+
+/* Menambahkan bayangan halus pada elemen */
+.box-shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Mengatur gaya header */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/* Mengatur gaya footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-decoration: none;
+}
+
+/* Mengatur gaya tata letak halaman */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+
+.page-wrapper {
+    margin: 0;
+}
+
+/* Header Mobile */
+.header-mobile {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.header-mobile h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  
+}
+
+.navbar-mobile__list {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+}
+
+.navbar-mobile__list li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar-mobile__list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+/* Menu Sidebar */
+.menu-sidebar {
+    background: linear-gradient(to bottom,  #12a7af, #49dcd7);
+    color: #ecf0f1;
+    height: 100%;
+    transition: width 0.3s ease; /* Add smooth transition to width change */
+    overflow-y: auto;
+    text-decoration: none;
+}
+
+
+.logo a {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-sidebar__content {
+    padding-top: 20px;
+}
+
+.navbar-sidebar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navbar-sidebar li {
+    margin-bottom: 15px;
+}
+
+.navbar-sidebar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    padding: 12px 20px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 8px;
+    
+}
+
+.navbar-sidebar a:hover {
+    background-color: #C6FCE5;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-sidebar .active a {
+    background-color: #EBFFFA;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-sidebar i {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* Page Container */
+.page-container {
+    margin-left: 0;
+}
+
+/* Header Desktop */
+.header-desktop {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 20px;
+    border-bottom: 1px solid #2b3036;
+    text-decoration: none;
+}
+
+.title-3 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/* Main Content */
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.text-sm-center {
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 991px) {
+    .menu-sidebar {
+        width: 80px;
+    }
+
+    .menu-sidebar:hover {
+        width: 200px;
+    }
+
+    .logo a {
+        padding: 20px 10px;
+        font-size: 1.5rem;
+    }
+
+    .navbar-sidebar a {
+        padding: 12px 10px;
+        font-size: 1rem;
+    }
+}
+/* styles.css */
+
+/* General Styles */
+a {
+    color: #007bff; /* Change link color */
+    
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Efek scaling saat hover */
+}
+
+/* Forms */
+.form-control {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+}
+
+/* Alerts */
+.alert {
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Responsive Tables */
+.table {
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.page-item {
+    margin: 0 10px;
+}
+
+.page-link {
+    padding: 15px 20px;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.page-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.custom-margin {
+    margin: 30px;
+}
+
+.custom-padding {
+    padding: 30px;
+}
+
+/* Main Content Styles */
+.main-content {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+/* Title Styles */
+h2 {
+    color: #000000;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Location Styles */
+.location {
+    text-align: justify;
+    color: #555;
+}
+
+/* Form Styles */
+.form-horizontal {
+    margin-top: 30px;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 12px;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #49dcd7;
+}
+
+/* Button Styles */
+.au-btn {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s ease-in-out;
+}
+
+.au-btn:hover {
+    background-color: #10d4ba;
+    color: #000000;
+    transform: scale(1.05);
+}
+
+/* Additional Styles */
+hr {
+    border-color: #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
